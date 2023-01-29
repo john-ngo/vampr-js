@@ -26,6 +26,7 @@ describe("Vampire", function() {
     });
 
     it("should return true when called on root vampire", () => {
+      console.log(rootVampire.isMoreSeniorThan(offspring1));
       expect(rootVampire.isMoreSeniorThan(offspring1)).to.equal(true);
       expect(rootVampire.isMoreSeniorThan(offspring2)).to.equal(true);
       expect(rootVampire.isMoreSeniorThan(offspring3)).to.equal(true);
